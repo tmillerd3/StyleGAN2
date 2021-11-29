@@ -103,7 +103,7 @@ jobs:
         # Now just keep the kernel alive
         while True:
             time.sleep(10000)
-
+            
         cd /inputs/stylegan2
         python run_generator.py generate-images \
           --network=gdrive:networks/stylegan2-ffhq-config-f.pkl \
